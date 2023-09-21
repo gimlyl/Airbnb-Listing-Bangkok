@@ -4,7 +4,7 @@ This project aims to analyze Airbnb listings for Bangkok, providing insights int
 # Dataset:
 The dataset is sourced from Airbnb and contains detailed listings for Bangkok.
 It includes information such as property type, location, price, reviews, and other relevant details.
-**Column Data Mentah**\n
+**Column Data Mentah**<br>
     <br>\n
     \n
     "| Feature                      | Deskripsi                                                                   |\n",

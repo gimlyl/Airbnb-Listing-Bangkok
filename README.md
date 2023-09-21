@@ -24,7 +24,7 @@ Mapping the listings to visualize the distribution across Bangkok.
 
 Offering suggestions for hosts to improve their listings and increase revenue.
 Providing insights for travelers to make informed booking decisions.
-# Conclusion:
+
 
 
 

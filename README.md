@@ -1,5 +1,21 @@
 # Airbnb Listing Bangkok Analysis
-Airbnb adalah jaringan pasar daring dan penginapan rumahan sejawat yang memungkinkan pengguna mendaftarkan atau menyewa properti untuk digunakan dalam jangka pendek. Harga sewanya ditetapkan oleh pemilik properti. Airbnb memiliki cabang diberbagai negara salah satu cabangnya ada di Bangkok. Membahas pentingnya Airbnb sebagai platform untuk penyewaan properti jangka pendek maupun jangka panjang. 
+### **BACKGROUND** 
+Airbnb adalah jaringan pasar daring dan penginapan rumahan sejawat yang memungkinkan pengguna mendaftarkan atau menyewa properti untuk digunakan dalam jangka pendek. Harga sewanya ditetapkan oleh pemilik properti. Airbnb memiliki cabang diberbagai negara salah satu cabangnya ada di Bangkok. Membahas pentingnya Airbnb sebagai platform untuk penyewaan properti jangka pendek maupun jangka panjang. Ini menguraikan tujuan analisis, yaitu untuk memahami pengaruh ulasan pada pengambilan keputusan dan harga sewa di Bangkok. Analisis ini juga bermaksud untuk memahami distribusi jenis properti, korelasi ulasan dengan jenis properti, dan lingkungan dengan daftar terbanyak. **Airbnb Bangkok mau menganalisis apakah Reviews dapat mempengaruhi pengambilan keputusan seseorang dalam memilih tempat hunian ataupun reviews berpengaruh terhadap harga sewa tempat hunian**. Beberapa parameter akan digunakan yaitu:
+- Mencari tahu tipe hunian apa saja yang terlisting di aplikasi Airbnb.
+- Mencari tahu tipe hunian apa yang memiliki review terbanyak. 
+- Neighbourhood apa yang memiliki tempat hunian terbanyak.
+- Mencari tahu tipe hunian apa yang memiliki review paling sedikit.
+- Mencari tahu berapa jumlah hunian yang memiliki review dan yang tidak memiliki review.
+<br>
+
+**Stakeholders** > Airbnb Product Owner Perwakilan Bangkok
+<br>
+
+### **Goals** 
+- Mencari Tahu Tipe hunian apa yang paling banyak ditemukan melalui aplikasi Airbnb yang berlokasi di Bangkok untuk setiap lokasi
+- Menambahkan kebijakan baru supaya penyewa bisa memberikan review
+- Memberikan rekomendasi untuk customer/penyewa yang sedang mencari hunian dilokasi tertentu di Bangkok
+<br
 
 # Dataset:
 **Column Data Mentah**
@@ -35,16 +51,63 @@ Sections:
 # Data Import and Cleaning:
 
 ## Importing the Airbnb Bangkok dataset.
-Handling missing values, outliers, and data anomalies.
-## Exploratory Data Analysis (EDA):
+Disini kita akan mengecek anomali serta missing value yang terdapat didalam dataset Airbnb Bangkok kemudian anomali dan missing value tersebut akan diatasi atau dihandle
+To Do List:
+1. Mengecek Info Data
+2. Mengecek Duplikasi Data
+    - Menghilangkan Duplikasi Data(jika ada)
+3. Mengecek data anomalies
+    - Mengatasi data anomalis
+4. Mengubah nama column sehingga mudah untuk digunakan ataupun dibaca
+5. Drop column yang tidak digunakan 
+6. Menambahkan column baru untuk digunakan dalam analisis data
+7. Mengecek Persebaran Data
 
-Visualisasi listings dari property type, location, and price range.
-analisis korelasi antara variables price, reviews.
-## Location Analysis:
+ini merupakan tahap-tahap yang akan dilakukan dalam proses data wrangling & cleaning
 
-mencari tahu popular neighborhoods and harga sewa average rental prices.
-Mapping listings untuk visualisasi distribsui di Bangkok.
+## **Conclusions**
 
+Bangkok, sebagai salah satu kota yang paling banyak didatangi oleh para turis di Thailand, memiliki beragam distrik, masing-masing dengan karakteristiknya, memberikan pengalaman yang unik bagi pengunjung. Dari analisa yang dilakukan, diketahui bahwa mayoritas hunian yang terdaftar di Airbnb di Bangkok terletak di distrik perbelanjaan dan bisnis.
+
+Dari analisis tersebut, beberapa poin penting adalah:
+
+**Variasi Tipe Hunian**:
+Terdapat empat tipe hunian utama yang terlist di Airbnb Bangkok: Entire Home/Apartment, Private Room, Hotel Room, dan Shared Room.
+
+**Kekurangan Review**:
+Banyak hunian yang tidak memiliki review, mempengaruhi daya tarik bagi calon penyewa dan mengurangi jumlah pilihan hunian yang memenuhi kebutuhan mereka, karena kurangnya testimoni atau ulasan dari pengunjung sebelumnya.
+
+**Karakteristik Distrik**:
+Distrik seperti Vadhana dan Khlong Toei menawarkan lokasi strategis, dengan Vadhana sebagai pusat kota dan Khlong Toei sebagai lokasi pelabuhan kontainer terbesar di Thailand, keduanya juga menyediakan beragam fasilitas komersial dan tempat penting lainnya.
+
+**Pengaruh Harga dan Review**:
+Analisis menunjukkan bahwa ada korelasi terbalik dan kecil antara harga dan review. Sedangkan, Total Price sangat dipengaruhi oleh Minimum Night, dengan pengaruh sebesar 82%, menandakan semakin lama durasi sewa, harga yang perlu dibayar akan semakin besar.
+
+**Implikasi**:
+**Pentingnya** **Review**:
+Pemilik hunian harus mendorong pengunjung untuk meninggalkan review untuk meningkatkan daya tarik hunian mereka, memandu calon penyewa dalam membuat keputusan, dan memperluas opsi hunian yang tersedia.
+
+**Penyesuaian** **Harga**:
+Dengan adanya pengaruh antara harga dan durasi sewa, pemilik hunian perlu menetapkan harga yang kompetitif dan realistis sesuai dengan durasi sewa yang diinginkan oleh penyewa potensial.
+
+**Secara keseluruhan, untuk meningkatkan daya tarik dan keberagaman pilihan hunian, pemilik hunian perlu mempertimbangkan faktor-faktor di atas dalam strategi pemasaran dan penentuan harga mereka.**
+
+# **Rekomendasi**
+Berdasarkan analisis yang telah dilakukan, berikut adalah beberapa rekomendasi yang dapat diterapkan untuk mengoptimalkan layanan dan penawaran hunian di Airbnb Bangkok:
+
+1. **Meningkatkan Jumlah Review**:
+Dengan 36% hunian yang belum memiliki review, sangat disarankan untuk mengimplementasikan kebijakan yang mendorong pengguna dan penyewa untuk meninggalkan review setelah masa tinggal mereka. Review ini harus mencakup rating dan informasi detil mengenai pengalaman mereka, yang nantinya akan membantu calon penyewa dalam membuat keputusan yang lebih baik dan meningkatkan kredibilitas dan daya tarik hunian yang terlist.
+
+2. **Menonjolkan Tipe Hunian Populer**:
+Mengingat kebanyakan hunian yang terlisting adalah Entire Home/Apartment dan Private Room, dapat dilakukan strategi pemasaran yang menonjolkan jenis hunian ini kepada calon penyewa. Namun, strategi ini juga harus disesuaikan dengan preferensi lokasi dari pengguna, untuk memastikan kecocokan antara tawaran dan kebutuhan penyewa.
+
+3. **Mengidentifikasi Peluang Bisnis di Distrik Populer**:
+Wilayah Vadhana dan Khlong Toei, sebagai daerah dengan jumlah listing terbanyak, menawarkan peluang bisnis yang signifikan. Airbnb dapat menjalin kerjasama dengan lebih banyak pemilik hunian di distrik-distrik ini dan distrik terkenal lainnya untuk meningkatkan jumlah listing dan menjangkau audiens yang lebih luas.
+
+4. **Penyesuaian Strategi Pemasaran**:
+Mengembangkan dan menyesuaikan strategi pemasaran yang lebih terfokus pada daerah-daerah dengan permintaan tinggi dan jenis hunian yang lebih populer dapat membantu dalam mencapai penetrasi pasar yang lebih luas dan memenuhi kebutuhan penyewa dengan lebih efektif.
+
+**Dengan mengimplementasikan rekomendasi-rekomendasi ini, diharapkan akan tercipta peningkatan dalam layanan, kepuasan pengguna, dan keberhasilan bisnis untuk hunian yang terdaftar di Airbnb Bangkok.**
 
 
 

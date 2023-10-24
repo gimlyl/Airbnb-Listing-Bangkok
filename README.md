@@ -1,4 +1,4 @@
-# Airbnb Listing Bangkok Analysis
+# Airbnb Listing Analysis: Insights from Bangkok's Accommodation Landscape
 ### **BACKGROUND** 
 Airbnb adalah jaringan pasar daring dan penginapan rumahan sejawat yang memungkinkan pengguna mendaftarkan atau menyewa properti untuk digunakan dalam jangka pendek. Harga sewanya ditetapkan oleh pemilik properti. Airbnb memiliki cabang diberbagai negara salah satu cabangnya ada di Bangkok. Membahas pentingnya Airbnb sebagai platform untuk penyewaan properti jangka pendek maupun jangka panjang. Ini menguraikan tujuan analisis, yaitu untuk memahami pengaruh ulasan pada pengambilan keputusan dan harga sewa di Bangkok. Analisis ini juga bermaksud untuk memahami distribusi jenis properti, korelasi ulasan dengan jenis properti, dan lingkungan dengan daftar terbanyak. **Airbnb Bangkok mau menganalisis apakah Reviews dapat mempengaruhi pengambilan keputusan seseorang dalam memilih tempat hunian ataupun reviews berpengaruh terhadap harga sewa tempat hunian**. Beberapa parameter akan digunakan yaitu:
 - Mencari tahu tipe hunian apa saja yang terlisting di aplikasi Airbnb.
